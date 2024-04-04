@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MaaSharda/static/css/main.cfa83ede.css",
+    "main.js": "/MaaSharda/static/js/main.185eeee6.js",
+    "index.html": "/MaaSharda/index.html",
+    "main.cfa83ede.css.map": "/MaaSharda/static/css/main.cfa83ede.css.map",
+    "main.185eeee6.js.map": "/MaaSharda/static/js/main.185eeee6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfa83ede.css",
+    "static/js/main.185eeee6.js"
+  ]
+}
