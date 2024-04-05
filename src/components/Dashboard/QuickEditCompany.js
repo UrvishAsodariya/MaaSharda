@@ -164,7 +164,7 @@ function QuickEditCompany({ isShowDetail = false, alreadySet = false }) {
             ) : (
               <input
                 value={companyForm.companyEmail}
-                placeholder="Company Email"
+                placeholder="Company GST No"
                 className={
                   !validForm.companyEmail && isTouched
                     ? defaultInputInvalidStyle
@@ -183,7 +183,7 @@ function QuickEditCompany({ isShowDetail = false, alreadySet = false }) {
             ) : (
               <input
                 value={companyForm.companyMobile}
-                placeholder="Company Phone"
+                placeholder="Company Mobile No"
                 className={
                   !validForm.companyMobile && isTouched
                     ? defaultInputInvalidStyle
