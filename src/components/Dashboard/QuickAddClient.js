@@ -142,7 +142,7 @@ function QuickAddClient({ editForm }) {
               <input
                 autoComplete="nope"
                 value={clientForm.name}
-                placeholder="User Name"
+                placeholder="Customer Name"
                 className={
                   !validForm.name && isTouched
                     ? defaultInputLargeInvalidStyle
@@ -162,7 +162,7 @@ function QuickAddClient({ editForm }) {
           ) : (
             <input
               autoComplete="nope"
-              placeholder="Email Address"
+              placeholder="Customer GST No"
               className={
                 !validForm.email && isTouched
                   ? defaultInputInvalidStyle
@@ -182,7 +182,7 @@ function QuickAddClient({ editForm }) {
           ) : (
             <input
               autoComplete="nope"
-              placeholder="Mobile No"
+              placeholder="Customer Mobile No"
               className={
                 !validForm.mobileNo && isTouched
                   ? defaultInputInvalidStyle
